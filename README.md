@@ -93,8 +93,6 @@ quast.py scaffolds.fasta -o quast_results
 
 ## Discussion
 
-## Discussion
-
 The assembly statistics indicate a reasonably complete bacterial genome assembly. The assembled genome size (6.36 Mb) and GC content (34.99%) are consistent with published Bacillus thuringiensis genomes. Although the assembly contains multiple scaffolds, the N50 value of 171,737 bp and the presence of several large scaffolds suggest that substantial portions of the genome were successfully reconstructed. BUSCO analysis indicated approximately 85% genome completeness, supporting the overall quality of the assembly while also suggesting that some genomic regions may remain incomplete or fragmented. Additional long-read sequencing technologies, such as Oxford Nanopore or PacBio sequencing, could further improve assembly contiguity and reduce fragmentation.
 
 ## Author
