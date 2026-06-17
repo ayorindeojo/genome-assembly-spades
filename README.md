@@ -58,10 +58,23 @@ quast.py scaffolds.fasta -o quast_results
 
 ## Repository Structure
 
+```text
+genome-assembly-spades/
+│
 ├── README.md
 ├── quast_report.png
+│
 ├── assembly/
+│   ├── scaffolds.fasta
+│   ├── contigs.fasta
+│   ├── scaffolds.paths
+│   └── spades.log
+│
 └── quast_results/
+    ├── report.html
+    ├── report.tsv
+    └── report.txt
+```
 
 ## Results
 
