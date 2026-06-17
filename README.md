@@ -56,6 +56,13 @@ quast.py scaffolds.fasta -o quast_results
 
 ![QUAST Report](quast_report.png)
 
+## Repository Structure
+
+├── README.md
+├── quast_report.png
+├── assembly/
+└── quast_results/
+
 ## Results
 
 ### Assembly Metrics
