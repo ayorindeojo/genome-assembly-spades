@@ -4,6 +4,10 @@
 
 This project demonstrates the assembly and quality assessment of a bacterial genome using next-generation sequencing (NGS) data. The workflow was completed as part of coursework in the Master of Science in Biotechnology (Bioinformatics Concentration) program at the University of Maryland Global Campus (UMGC).
 
+### Organism
+
+Bacillus thuringiensis
+
 ## Objectives
 
 * Perform de novo genome assembly using SPAdes
@@ -66,6 +70,7 @@ quast.py scaffolds.fasta -o quast_results
 | GC Content | 34.99% |
 | L50 | 11 |
 | L90 | 47 |
+| BUSCO Completeness | 85% |
 | Number of Ns | 0 |
 
 ## Key Findings
@@ -88,7 +93,9 @@ quast.py scaffolds.fasta -o quast_results
 
 ## Discussion
 
-The assembly statistics indicate a reasonably complete bacterial genome assembly. The observed genome size and GC content are consistent with published Bacillus thuringiensis genomes. Although the assembly contains multiple scaffolds, the N50 value and large scaffold sizes suggest that substantial portions of the genome were successfully reconstructed. Additional long-read sequencing technologies could potentially improve assembly contiguity and reduce fragmentation.
+## Discussion
+
+The assembly statistics indicate a reasonably complete bacterial genome assembly. The assembled genome size (6.36 Mb) and GC content (34.99%) are consistent with published Bacillus thuringiensis genomes. Although the assembly contains multiple scaffolds, the N50 value of 171,737 bp and the presence of several large scaffolds suggest that substantial portions of the genome were successfully reconstructed. BUSCO analysis indicated approximately 85% genome completeness, supporting the overall quality of the assembly while also suggesting that some genomic regions may remain incomplete or fragmented. Additional long-read sequencing technologies, such as Oxford Nanopore or PacBio sequencing, could further improve assembly contiguity and reduce fragmentation.
 
 ## Author
 
